@@ -18,7 +18,10 @@ const FotoModel = sequelize.define("foto",{
     tanggal_posting: {
         type: DataTypes.DATE
     },
-    lokasi_file: {
+    cloudinary_id: {
+        type: DataTypes.STRING
+    },
+    image_url: {
         type: DataTypes.STRING
     },
     albumId: {

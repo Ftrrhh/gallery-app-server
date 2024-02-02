@@ -27,6 +27,9 @@ const UserModel = sequelize.define("user", {
     alamat: {
         type: DataTypes.STRING
     },
+    refresh_token: {
+        type: DataTypes.STRING
+    }
 }, {
     freezeTableName: true
 });

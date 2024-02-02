@@ -7,7 +7,7 @@ export const createAlbum = async (req, res) => {
         const tanggal_dibuat = new Date();
 
         const response = await AlbumModel.create({
-            nama_album, 
+            nama_album,
             deskripsi, 
             tanggal_dibuat 
         });
